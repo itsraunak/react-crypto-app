@@ -116,7 +116,7 @@ const CoinDetails = () => {
                         />
                     </Box>
 
-                    <HStack p={"4"} wrap={"wrap"}>
+                    <HStack p={"4"} overflowX={"auto"}>
                         {btns.map((i) => (
                             <Button key={i} onClick={() => switchChartStats(i)}>
                                 {" "}
